@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
 s.name         = "SSK"
-s.version      = "1.0.0"
+s.version      = "1.1.0"
 s.summary      = "a new scan View for iOS"
 
 s.description  = <<-DESC
@@ -41,7 +41,7 @@ s.dependency "ZBarSDK", "~>1.3.1"
 s.source       = { :git => "https://github.com/MentosMeng/SSK.git", :tag => "#{s.version}" }
 s.frameworks = "Foundation", "AVFoundation", "UIKit"
 
-s.source_files  = "SSK/*.{h,m}"
+s.source_files  = "SSK/*.{h,m,png}"
 
 
 end
